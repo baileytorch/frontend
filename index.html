@@ -1,24 +1,54 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clases de Frontend</title>
+    <title>Página HTML Inicial</title>
+    <style>
+        body {
+            background-color: azure;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border-bottom: 2px solid;
+        }
+
+        tr:hover {
+            background-color: #D6EEEE;
+        }
+
+        #h1principal {
+            color: chocolate;
+        }
+
+        .textoprincipal {
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Etiqueta H1</h1>
-    <h2>Etiqueta H2</h2>
-    <H6>Etiqueta H6</H6>
+    <h1 id="h1principal" class="textoprincipal">Contenido de mi página web</h1>
+    <h2>Contenido de mi página web</h2>
+    <h3>Contenido de mi página web</h3>
+    <h4>Contenido de mi página web</h4>
+    <h5>Contenido de mi página web</h5>
+    <h6>Contenido de mi página web</h6>
+
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools.com!</a>
 
     <br>
-    <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3 School</a>
-
-    <table>
+    <table width="100%">
         <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
+            <th width="50%">Company</th>
+            <th width="25%">Contact</th>
+            <th width="25%">Country</th>
         </tr>
         <tr>
             <td>Alfreds Futterkiste</td>
@@ -30,8 +60,35 @@
             <td>Francisco Chang</td>
             <td>Mexico</td>
         </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td colspan="2">Francisco Chang</td>
+        </tr>
     </table>
 
+    <p class="textoprincipal">This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <video width="800" height="600" controls>
+        <source src="C:\Users\HP-14-BS016LA\Downloads\mov_bbb.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
 
 
 </body>
