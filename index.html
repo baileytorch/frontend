@@ -1,96 +1,91 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página HTML Inicial</title>
+    <title>Clases de Frontend</title>
+    <link rel="icon" href="./assets/images/dota2-icon-2048x2026-7cnarvw2.ico">
+    <link rel="stylesheet" href="./css/estilos.css">
+
     <style>
         body {
-            background-color: azure;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 2%;
+            background-color: #eaecee;
         }
 
         table {
+            width: 100%;
+            border: solid 1px;
             border-collapse: collapse;
         }
 
+        th,
         td {
-            border-bottom: 2px solid;
+            border: solid 1px;
         }
 
-        tr:hover {
-            background-color: #D6EEEE;
-        }
-
-        #h1principal {
-            color: chocolate;
-        }
-
-        .textoprincipal {
-            font-weight: bold;
+        tr:nth-child(even) {
+            background-color: #7fb3d5;
         }
     </style>
 </head>
 
-<body>
-    <h1 id="h1principal" class="textoprincipal">Contenido de mi página web</h1>
-    <h2>Contenido de mi página web</h2>
-    <h3>Contenido de mi página web</h3>
-    <h4>Contenido de mi página web</h4>
-    <h5>Contenido de mi página web</h5>
-    <h6>Contenido de mi página web</h6>
+<body id="cuerpo">
+    <h1>Contenido Sitio</h1>
+    <hr>
+    <table>
+        <tr>
+            <th>Fila 1 Celda 1</th>
+            <th>Fila 1 Celda 2</th>
+            <th>Fila 1 Celda 3</th>
+        </tr>
 
-    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools.com!</a>
+        <tr>
+            <td>Fila 2 Celda 1</td>
+            <td>Fila 2 Celda 2</td>
+            <td>Fila 2 Celda 3</td>
+        </tr>
 
-    <br>
-    <table width="100%">
         <tr>
-            <th width="50%">Company</th>
-            <th width="25%">Contact</th>
-            <th width="25%">Country</th>
+            <td>Fila 3 Celda 1</td>
+            <td colspan="2">Fila 3 Celda 2</td>
         </tr>
+
         <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
+            <td>Fila 4 Celda 1</td>
+            <td>Fila 4 Celda 2</td>
+            <td rowspan="2">Fila 4 Celda 3</td>
         </tr>
+
         <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-        </tr>
-        <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td colspan="2">Francisco Chang</td>
+            <td>Fila 5 Celda 1</td>
+            <td>Fila 5 Celda 2</td>
+
         </tr>
     </table>
 
-    <p class="textoprincipal">This is a paragraph.</p>
-    <p>This is another paragraph.</p>
+    <hr style="border: solid 1px blue;">
 
-    <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus sit amet nisl vel porttitor. In sed neque
+        sed lacus facilisis pellentesque quis suscipit nisi. Pellentesque quis ligula in justo vulputate facilisis.
+        Mauris at pharetra leo. Proin sodales risus eros, at laoreet neque aliquet id. Cras consequat eleifend diam quis
+        rutrum. Integer lorem diam, consequat ut condimentum a, viverra ac enim. Nunc blandit eu ipsum id pellentesque.
+        Sed ullamcorper nisi at nisl auctor, ut aliquam nunc suscipit.</p>
 
-    <ol>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ol>
+    <p class="parrafo_especial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus sit amet nisl
+        vel porttitor. In sed neque
+        sed lacus facilisis pellentesque quis suscipit nisi. Pellentesque quis ligula in justo vulputate facilisis.
+        Mauris at pharetra leo. Proin sodales risus eros, at laoreet neque aliquet id. Cras consequat eleifend diam quis
+        rutrum. Integer lorem diam, consequat ut condimentum a, viverra ac enim. Nunc blandit eu ipsum id pellentesque.
+        Sed ullamcorper nisi at nisl auctor, ut aliquam nunc suscipit.</p>
 
-    <video width="800" height="600" controls>
-        <source src="C:\Users\HP-14-BS016LA\Downloads\mov_bbb.mp4" type="video/mp4">
-        <source src="movie.ogg" type="video/ogg">
-        Your browser does not support the video tag.
-    </video>
-
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-    </iframe>
-
-
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus sit amet nisl vel porttitor. In sed neque
+        sed lacus facilisis pellentesque quis suscipit nisi. Pellentesque quis ligula in justo vulputate facilisis.
+        Mauris at pharetra leo. Proin sodales risus eros, at laoreet neque aliquet id. Cras consequat eleifend diam quis
+        rutrum. Integer lorem diam, consequat ut condimentum a, viverra ac enim. Nunc blandit eu ipsum id pellentesque.
+        Sed ullamcorper nisi at nisl auctor, ut aliquam nunc suscipit.</p>
 </body>
 
 </html>
