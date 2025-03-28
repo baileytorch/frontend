@@ -1,3 +1,9 @@
 .parrafo_especial{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rebeccapurple;
+}
+
+body {
+    border: 10px dashed chocolate;
+    background-color: #f8f9f9;
 }
