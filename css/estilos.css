@@ -2,32 +2,6 @@
     border-bottom: 1px solid;
 }
 
-ul.no_bullets {
-    list-style-type: none; /* Remove bullets */
-    /* padding: 0; Remove padding */
-    /* margin: 0; Remove margins */
-    display: flex;
-    justify-content: space-around;
-}
-
-.btn_lista{
+.margen_superior{
     margin-top: 10px;
-    display: inline-flex;
-    vertical-align: middle;
-}
-
-#js_img{
-    width: 5%;
-}
-
-.titulo_principal{
-    text-align: center;
-}
-
-.derecha{
-    float: right;
-}
-
-.izquierda{
-    float: left;
 }
