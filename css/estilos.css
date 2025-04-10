@@ -5,3 +5,7 @@
 .margen_superior{
     margin-top: 10px;
 }
+
+.cambia_color{
+    background-color: aqua;
+}

@@ -53,3 +53,14 @@ var automovil = {
 console.log(automovil.modelo)
 
 // DOM Document Object Model
+// Interpretación JS de las páginas web, con estructura de árbol
+var encabezado = document.querySelector("h3");
+console.log(encabezado);
+encabezado.innerHTML = '<h3 class="margen_superior"><i class="fa-brands fa-js"></i> Introducción a JavaScript</h3>';
+
+// Eventos y Listeners
+function cambiaColor() {
+    this.classList.toggle("cambia_color");
+}
+
+document.querySelector("body").addEventListener("click", cambiaColor);
