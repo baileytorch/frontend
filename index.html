@@ -13,6 +13,8 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
+    <script src="./scripts/scripts_index.js"></script>
+
     <!-- 
         Podemos incluir JS en la cabecera, pero agregando atributos para optimizar la carga...
         async => Para que el navegador siga renderizando la web.
@@ -55,11 +57,87 @@
 
         <div class="container-fluid">
             <div class="container-fluid">
-                <img src="" alt="">
-            </div>
+                <form action="" method="post">
+                    <div class="row">
+                        <p class="display-5">Formulario de Registro</p>
+                    </div>
 
-            <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="inputNombre">Nombre Completo</label>
+                                <input type="text" class="form-control" id="inputNombre" placeholder="Nombre Completo">
+                                <div class="invalid-feedback">
+                                    Ingrese su nombre completo.
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="inputRut">Rut</label>
+                                <input type="text" class="form-control" id="inputRut" placeholder="Rut">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="inputFechaNacimiento">Fecha Nacimiento</label>
+                                <input type="text" class="form-control" id="inputFechaNacimiento"
+                                    placeholder="Fecha de Nacimiento">
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="selectGenero">Seleccione su Género</label>
+                                <select class="form-control" id="selectGenero">
+                                    <option selected>Seleccione su Opción</option>
+                                    <option value="1">Masculino</option>
+                                    <option value="2">Femenino</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="inputEmail">Contraseña</label>
+                                <input type="password" class="form-control" id="inputEmail"
+                                    aria-describedby="ayudaContrasena" placeholder="*****">
+                                <small id="ayudaContrasena" class="form-text text-muted">Su contraseña debe contener
+                                    letras mayúsculas y minúsculas y números.</small>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="inputRepetirContrasena">Repetir Contraseña</label>
+                                <input type="password" class="form-control" id="inputRepetirContrasena"
+                                    aria-describedby="ayudaRepetirContrasena" placeholder="*****">
+                                <small id="ayudaRepetirContrasena" class="form-text text-muted">Las contraseñas deben
+                                    coincidir.</small>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="inputCV">Cargue su Curriculum Vitae</label>
+                                <input type="file" class="form-control-file" id="inputCV">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <button class="btn btn-primary" id="btnFormularioRegistro" type="submit">Enviar</button>
+                </form>
             </div>
         </div>
         <hr>

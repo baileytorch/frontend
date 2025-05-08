@@ -9,3 +9,11 @@
 .cambia_color{
     background-color: aqua;
 }
+
+.formulario{
+    display: none;
+}
+
+.invalido {
+    border: 2px solid red;
+}
