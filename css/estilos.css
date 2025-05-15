@@ -1,3 +1,13 @@
+body{
+    padding: 15px;
+}
+
+form{
+    width: 60%;
+    padding: 15px;
+    background-color: #d5d8dc;
+}
+
 .nav{
     border-bottom: 1px solid;
 }
@@ -12,8 +22,4 @@
 
 .formulario{
     display: none;
-}
-
-.invalido {
-    border: 2px solid red;
 }
